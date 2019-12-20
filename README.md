@@ -29,15 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+for each is kinda like a loop it will go through all the information int he array and can provided a callback function once for each elemetn int he array. 
+Map will create an entire new array in order. 
 2. What is the difference between a function and a method?
-
+a function in javasript is a object and the value of said object is considered a property of the object.
+a method is a function that belongs to a object usually written inside the object
 3. What is closure?
-
+it's basically a bundled in function that gives you access to the outer function scope. 
 4. Describe the four rules of the 'this' keyword.
-
+global binding rule - only works in non strict mode so that this will be on a global scope
+constructor - you call with new keyword and it creates a object in a fucntion that is linked to the protoy object it's imaginary you do not see it but the this keyworkd is implied already. 
+implicit - this is enclosed in an object and refers to it only
+explicit - using explicti binding you can use call, apply, or bind to make this mean specifially what you want not what it's inferring to. 
 5. Why do we need super() in an extended class?
-
+This allows you to inherit from the parent of that class. 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
